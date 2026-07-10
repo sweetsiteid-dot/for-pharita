@@ -1,0 +1,194 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0d0d0d;
+color:white;
+overflow-x:hidden;
+}
+
+#websiteContent{
+display:none;
+}
+
+#passwordScreen{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:9999;
+
+background:
+linear-gradient(
+rgba(0,0,0,.65),
+rgba(0,0,0,.75)
+),
+url("pharita1.jpg");
+
+background-size:cover;
+background-position:center;
+}
+
+.password-box{
+width:90%;
+max-width:380px;
+padding:40px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+-webkit-backdrop-filter:blur(15px);
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:25px;
+
+text-align:center;
+
+box-shadow:0 10px 40px rgba(0,0,0,.4);
+}
+
+.password-box h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.password-box h2{
+margin-bottom:15px;
+}
+
+.password-box p{
+color:#d9d9d9;
+line-height:1.7;
+}
+
+.password-box input{
+width:100%;
+padding:14px;
+margin-top:15px;
+
+border:none;
+outline:none;
+
+border-radius:12px;
+
+background:rgba(255,255,255,.1);
+
+color:white;
+font-size:16px;
+text-align:center;
+}
+
+.password-box button{
+width:100%;
+margin-top:15px;
+
+padding:14px;
+
+border:none;
+border-radius:12px;
+
+background:white;
+color:black;
+
+font-weight:600;
+cursor:pointer;
+}
+
+section{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero h1{
+font-size:55px;
+font-family:'Playfair Display',serif;
+}
+
+.hero h2{
+font-size:35px;
+margin:15px 0;
+}
+
+.hero p{
+max-width:600px;
+line-height:1.8;
+color:#d9d9d9;
+}
+
+.hero button{
+padding:15px 35px;
+border:none;
+border-radius:50px;
+background:white;
+color:black;
+font-weight:bold;
+cursor:pointer;
+}
+
+.card,
+.letter-box{
+max-width:850px;
+margin:auto;
+padding:35px;
+background:#171717;
+border-radius:20px;
+border:1px solid #2a2a2a;
+}
+
+.gallery img{
+width:320px;
+max-width:90%;
+border-radius:20px;
+margin-top:20px;
+}
+
+#quote{
+margin-top:20px;
+font-style:italic;
+color:#cfcfcf;
+}
+
+.letter-box p{
+line-height:2;
+text-align:left;
+}
+
+.final h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.final h3{
+margin-top:25px;
+color:#d9d9d9;
+}
+
+.hidden{
+display:none;
+}
+
+#hearts{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+}
