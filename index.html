@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +9,50 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<!-- PASSWORD SCREEN -->
+
 <div id="passwordScreen">
+
+<div class="password-overlay">
 
 <div class="password-box">
 
 <h1>🤍</h1>
 
-<h2>A Birthday Surprise</h2>
+<h2>A Little Surprise</h2>
 
 <p>
 Happy 21st Birthday, Pharita.
 <br><br>
-A little gift has been prepared especially for you.
-</p>
-
-<p class="hint">
-Enter the secret code to unlock your surprise ✨
+A special gift is waiting for you.
 </p>
 
 <input
 type="password"
 id="passwordInput"
-placeholder="Enter Code">
+placeholder="Enter Secret Code">
 
 <button onclick="checkPassword()">
 Unlock 🤍
 </button>
 
+<p class="hint">
+Password: 1234
+</p>
+
 </div>
 
 </div>
+
+</div>
+
+<!-- WEBSITE -->
 
 <div id="websiteContent">
 
@@ -52,59 +62,172 @@ Unlock 🤍
 
 <div id="hearts"></div>
 
+<!-- HERO -->
+
 <section class="hero">
+
+<div class="hero-content">
 
 <h1>Happy 21st Birthday</h1>
 
 <h2>Pharita 🤍</h2>
 
 <p>
-Today is all about celebrating
-the beautiful person you are
-and the amazing future waiting ahead of you.
+Today isn't just your birthday.
+<br><br>
+It's the celebration of
+21 beautiful years of your story.
 </p>
 
 <button onclick="openGift()">
-Open Your Birthday Gift 🤍
+Begin The Journey ✨
 </button>
 
+</div>
+
 </section>
 
-<section id="giftSection" class="hidden">
+<!-- MESSAGE -->
 
-<div class="card">
+<section id="giftSection" class="section">
 
-<h2>A Special Message</h2>
+<div class="glass-card">
+
+<h2>A Special Day</h2>
 
 <p>
-Twenty-one years of beautiful memories,
-laughter, growth, and unforgettable moments.
 
-May happiness follow you everywhere
-and may your dreams always find their way to reality.
+Twenty-one years ago,
+the world became a little brighter.
+
+Today is not only about growing older.
+
+It's about celebrating
+every smile,
+every dream,
+every achievement,
+and every beautiful memory
+that made you who you are today.
+
 </p>
 
 </div>
 
 </section>
 
-<section class="gallery">
+<!-- POLAROID GALLERY -->
 
-<h2>Beautiful Moments 📸</h2>
+<section class="section">
 
-<div class="slider">
-<img id="slide" src="pharita1.jpg">
+<h2 class="section-title">
+A Few Of My Favorite Memories 📸
+</h2>
+
+<div class="polaroid-container">
+
+<div class="polaroid">
+<img src="pharita1.jpg">
+<span>Beautiful as always 🤍</span>
 </div>
 
-<p id="quote">
-"You deserve every beautiful thing life has to offer."
-</p>
+<div class="polaroid">
+<img src="pharita2.jpg">
+<span>My favorite smile ✨</span>
+</div>
+
+<div class="polaroid">
+<img src="pharita3.jpg">
+<span>Simply perfect</span>
+</div>
+
+<div class="polaroid">
+<img src="pharita4.jpg">
+<span>Unforgettable</span>
+</div>
+
+<div class="polaroid">
+<img src="pharita5.jpg">
+<span>Pure happiness</span>
+</div>
+
+<div class="polaroid">
+<img src="pharita6.jpg">
+<span>My favorite person 🤍</span>
+</div>
+
+</div>
 
 </section>
 
-<section class="letter">
+<!-- SPECIAL THINGS -->
 
-<h2>💌 A Letter For Pharita</h2>
+<section class="section">
+
+<h2 class="section-title">
+Things That Make You Special ✨
+</h2>
+
+<div class="cards">
+
+<div class="reason-card">
+🤍
+<h3>Your Smile</h3>
+<p>
+The kind of smile that can brighten anyone's day.
+</p>
+</div>
+
+<div class="reason-card">
+🤍
+<h3>Your Kindness</h3>
+<p>
+You always make people feel comfortable around you.
+</p>
+</div>
+
+<div class="reason-card">
+🤍
+<h3>Your Heart</h3>
+<p>
+One of the purest and most beautiful hearts.
+</p>
+</div>
+
+<div class="reason-card">
+🤍
+<h3>Your Personality</h3>
+<p>
+Beautiful inside and out.
+</p>
+</div>
+
+<div class="reason-card">
+🤍
+<h3>Your Strength</h3>
+<p>
+You keep moving forward no matter what.
+</p>
+</div>
+
+<div class="reason-card">
+🤍
+<h3>Everything About You</h3>
+<p>
+Every little thing makes you special.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- LETTER -->
+
+<section class="section">
+
+<h2 class="section-title">
+💌 A Letter For Pharita
+</h2>
 
 <div class="letter-box">
 
@@ -116,14 +239,19 @@ Happy 21st Birthday, Pharita.
 
 Today is your special day.
 
-A day to celebrate your beautiful heart,
-your wonderful soul,
-and the incredible person you have become.
+A day to celebrate the amazing person you are
+and everything you've accomplished so far.
 
 <br><br>
 
-As you turn twenty-one,
-I hope you realize how amazing you truly are.
+Twenty-one years may sound like a number,
+but behind that number are countless moments,
+memories,
+lessons,
+dreams,
+and experiences.
+
+<br><br>
 
 You have grown stronger,
 wiser,
@@ -131,39 +259,49 @@ and more beautiful with every passing year.
 
 <br><br>
 
-May this new chapter bring endless happiness,
-good health,
-new adventures,
-and dreams coming true.
+I hope this new chapter of your life
+brings you happiness that never fades,
+dreams that come true,
+and opportunities that take you places
+you've always wanted to be.
 
 <br><br>
 
-May your smile never fade.
+May your heart always be filled with peace.
 
-May your heart always feel loved.
+May your smile never disappear.
 
-And may life always give you reasons to be proud of yourself.
+And may every day ahead
+give you another reason to be grateful.
 
 <br><br>
 
-You deserve every beautiful thing
+You deserve all the good things
 this world has to offer.
 
 <br><br>
 
-Keep believing in yourself.
+Never stop believing in yourself.
 
-Keep chasing your dreams.
+Never stop dreaming.
 
-Keep shining wherever you go.
+And never stop being the wonderful person
+that you are.
+
+<br><br>
+
+Thank you for existing.
+
+Thank you for making the world brighter
+just by being in it.
 
 <br><br>
 
 Happy Birthday once again.
 
-May twenty-one be your most beautiful year yet.
-
-<br><br>
+May twenty-one become
+one of the most beautiful years
+of your life.
 
 🤍
 
@@ -173,26 +311,41 @@ May twenty-one be your most beautiful year yet.
 
 </section>
 
-<section class="final">
+<!-- FINAL -->
 
-<h2>Happy 21st Birthday, Pharita 🤍</h2>
+<section class="final-section">
+
+<h2>
+Happy 21st Birthday
+</h2>
+
+<h1>
+Pharita 🤍
+</h1>
 
 <p>
 
-May your life be filled with happiness,
-your heart with love,
-and your future with endless possibilities.
+May happiness find you.
 
-<br><br>
+May love surround you.
 
-The best chapters of your story
-are still waiting to be written.
+May success follow you.
+
+And may your heart always stay full of joy.
 
 </p>
 
-<h3>
-Keep Smiling. Keep Dreaming. Keep Shining.
-</h3>
+</section>
+
+<!-- ENDING -->
+
+<section class="ending">
+
+<h2>Made With Love 🤍</h2>
+
+<p>For Pharita</p>
+
+<p>2026</p>
 
 </section>
 
